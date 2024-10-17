@@ -1,0 +1,106 @@
+body{
+    background: rgb(39,38,53);
+    background: linear-gradient(90deg, rgba(39,38,53,1) 24%, rgba(166,166,168,1) 71%);
+}
+
+.img1{
+    height: 600px;
+
+}
+
+.father{
+
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.son{
+    position: absolute;
+
+}
+
+header{
+    width: 1200px;
+    margin: auto;
+    background-color: #E8E9F3 ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 170px;
+
+}
+.headlogo{
+    display: flex;
+    padding-left: 10px;
+    margin-top: 7px;
+}
+
+.gap{
+    display: flex;
+    gap: 10px;
+    margin: auto 0;
+    margin-right: 10px;
+}
+.title{
+    width: 1200px;
+    background-color: #E8E9F3 ;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 10px;
+
+}
+
+.img2{
+    padding-top: 20px;
+    width: 1200px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.son{
+    position: relative;
+
+}
+.father{
+    bottom: 350px;
+    background-color: rgb(0,0,0, 0.7);
+    opacity: 0.8;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Manrope";
+    color: red;
+    width: 1200px;
+
+}
+
+.discribe{
+    width: 1200px;
+    background-color: #bdbec6 ;
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.img3{
+    width: 600px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px ;
+
+}
+
+.txtdiscribe{
+    height: 380px;
+    width: 500px;
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
